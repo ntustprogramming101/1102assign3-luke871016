@@ -247,7 +247,7 @@ void draw() {
       for(int i=0;i<playerHealth;i++){
         image(lifeImg,10 + i*70,10); 
       }
-      if(playerHealth == 0 && debugMode == false){
+      if(playerHealth == 0){
         gameState = GAME_OVER;
         break;
       }
@@ -279,12 +279,9 @@ void draw() {
         cabbagePosition = new PVector(cabbageIndexX * 80 , 160 + cabbageIndexY * 80);
 			}
 		}else{
-
 			image(restartNormal, START_BUTTON_X, START_BUTTON_Y);
-
 		}
 		break;
-		
 	}
 
     // DO NOT REMOVE OR EDIT THE FOLLOWING 3 LINES
