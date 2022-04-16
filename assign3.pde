@@ -29,7 +29,7 @@ boolean movingDetection;
 int movingFrame = 15;
 
 // For debug function; DO NOT edit or remove this!
-int playerHealth = 3;
+int playerHealth = 2;
 float cameraOffsetY = 0;
 boolean debugMode = true;
 
